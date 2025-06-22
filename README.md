@@ -33,7 +33,7 @@ A presentation summarizing the QSmartPay architecture, feature flows and impleme
 
 ---
 
-## Live Link
+## 🔗 Live Link
 
 🚀 **Live Demo:** [Click here to view the live project](https://nkd-warriors.vercel.app/)
 
