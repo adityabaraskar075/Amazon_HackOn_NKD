@@ -668,7 +668,7 @@ export default function BudgetPage() {
                     </div>
                 )}
                 <p className="text-xs text-muted-foreground mt-2 text-center">
-                    This feature uses Genkit with Google AI. Predictions are illustrative.
+                    This feature AI. Predictions are illustrative.
                 </p>
                 </CardContent>
             </Card>
