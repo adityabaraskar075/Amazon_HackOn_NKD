@@ -41,6 +41,29 @@ A presentation summarizing the QSmartPay architecture, feature flows and impleme
 
 ---
 
+## 🛠️ Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/adityabaraskar075/Amazon_HackOn_NKD.git
+cd Amazon_HackOn_NKD
+
+# 2. Create a .env.local file and add the required environment variables
+echo "NEXT_PUBLIC_API_BASE_URL=https://your-api-endpoint.com
+NEXT_PUBLIC_CLIENT_ID=your-client-id
+NEXT_PUBLIC_SECRET_KEY=your-secret" > .env.local
+
+# 3. Install dependencies
+npm install
+
+# 4. Build the project
+npm run build
+
+# 5. Start the development server
+npm run dev
+
+---
+
 ## 🏠 Home Page UI
 
 The QSmartPay homepage acts as the central dashboard for the user. It displays six key features, each represented as a clean, modern card-style button that navigates to a specific feature flow such as fraud detection, smart payment suggestions, offline manager, and more. The layout is minimalistic with TailwindCSS styling, quick-access navigation, and intuitive icons, ensuring a fast and responsive user experience.
