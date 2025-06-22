@@ -68,15 +68,6 @@ npm run dev    # Visit http://localhost:3000
 ```
 ---
 
-## 🚀 Deployment
-
-To Deploy this project run
-
-```bash
-npm run deploy
-```
-
----
 
 ## 🏠 Home Page UI
 
