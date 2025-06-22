@@ -43,24 +43,38 @@ A presentation summarizing the QSmartPay architecture, feature flows and impleme
 
 ## 🛠️ Installation
 
+To run the project locally, follow these steps:
+
 ```bash
-# 1. Clone the repository
+# 1 ▪ Clone the repository
 git clone https://github.com/adityabaraskar075/Amazon_HackOn_NKD.git
 cd Amazon_HackOn_NKD
 
-# 2. Create a .env.local file and add the required environment variables
-echo "NEXT_PUBLIC_API_BASE_URL=https://your-api-endpoint.com
+# 2 ▪ Create the environment file
+cat > .env.local <<'EOF'
+NEXT_PUBLIC_API_BASE_URL=https://your-api-endpoint.com
 NEXT_PUBLIC_CLIENT_ID=your-client-id
-NEXT_PUBLIC_SECRET_KEY=your-secret" > .env.local
+NEXT_PUBLIC_SECRET_KEY=your-secret
+EOF
 
-# 3. Install dependencies
+# 3 ▪ Install dependencies
 npm install
 
-# 4. Build the project
+# 4 ▪ Build the project
 npm run build
 
-# 5. Start the development server
-npm run dev
+# 5 ▪ Start the development server
+npm run dev    # Visit http://localhost:3000
+```
+---
+
+## 🚀 Deployment
+
+To Deploy this project run
+
+```bash
+npm run deploy
+```
 
 ---
 
