@@ -64,7 +64,7 @@ npm install
 npm run build
 
 # 5 ▪ Start the development server
-npm run dev    # Visit http://localhost:3000
+npm run dev    # Visit http://localhost:9002
 ```
 ---
 
