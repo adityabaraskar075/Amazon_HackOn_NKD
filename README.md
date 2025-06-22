@@ -26,6 +26,21 @@ Our platform is designed to seamlessly enhance the existing payment infrastructu
 
 ---
 
+## 📄 Presentation PDF
+A presentation summarizing the QSmartPay architecture, feature flows and implementation highlights is included for quick reference. This PDF visually outlines the entire system and complements the live demo and README.
+
+📄 File: [Presentation.pdf](./extra_bits/QSmartPay_Presentation.pdf)
+
+---
+
+# Amazon HackOn - NKD Warriors
+
+🚀 **Live Demo:** [Click here to view the live project](https://nkd-warriors.vercel.app/)
+
+> This project was submitted as part of the Amazon HackOn 5.0 Hackathon under the "Smart Payment Optimization" problem statement.
+
+---
+
 ## 🏠 Home Page UI
 
 The QSmartPay homepage acts as the central dashboard for the user. It displays six key features, each represented as a clean, modern card-style button that navigates to a specific feature flow such as fraud detection, smart payment suggestions, offline manager, and more. The layout is minimalistic with TailwindCSS styling, quick-access navigation, and intuitive icons, ensuring a fast and responsive user experience.
@@ -145,14 +160,6 @@ This model analyzes multiple contextual factors such as cart category, amount, u
 The fraud detection module is designed using a Graph Neural Network that constructs an entity-relationship graph between users, devices, IP addresses, UPI handles and merchants. It flags suspicious transactions based on node centrality, message-passing signals and prior scam node embeddings. It offers explainability via attention weights that help identify which connections contributed to the fraud alert.
 
 These models ensure QSmartPay can deliver real-time, intelligent and secure suggestions tailored to each user.
-
-
----
-
-## 📄 Presentation PDF
-A presentation summarizing the QSmartPay architecture, feature flows and implementation highlights is included for quick reference. This PDF visually outlines the entire system and complements the live demo and README.
-
-📄 File: [Presentation.pdf](./extra_bits/QSmartPay_Presentation.pdf)
 
 ---
 
